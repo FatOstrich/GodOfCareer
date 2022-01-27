@@ -18,7 +18,22 @@ function App() {
           Learn React
         </a>
       </header>
-      <div ></div>
+      <div className='row'>
+        <div className='column'>
+          <p>Here will be player's profile</p>
+        </div>
+        <div className='column'>
+          <p>Here will be the events log</p>
+        </div>
+      </div>
+      <div className='row'>
+        <div className='column'>
+          <p>Here will be the operation buttons and inputs</p>
+        </div>
+        <div className='column'>
+          <p>Here will be events' detail</p>
+        </div>
+      </div>
     </div>
   );
 }
